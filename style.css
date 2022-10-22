@@ -116,7 +116,41 @@ main{
     overflow: hidden;
     border-radius: 30px;
     border: none;
-    width: 380px;
+    width: 325px;
     
+}
+    
+    section{
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(225, 100%, 94%);
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+    
+    .order-cancel{
+    padding: 20px 35px;
+    font-weight: 700;
+    color:hsl(224, 23%, 55%);
+    background: transparent;
+    border: none;
+    margin-bottom: 20px;
+    outline: none;
+
+}
+    
+    .payment{
+    padding: 15px 50px;
+   font-weight: 700;
+   color:hsl(225, 100%, 98%);
+   background:hsl(245, 75%, 52%);
+   border:none;
+   outline: none;
+   border-radius: 15px;
+   margin-top: 20px;
+   box-shadow: 10px 1px 10px 10px  hsla(223, 47%, 23%, 0.137);
 }
 }
