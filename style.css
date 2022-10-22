@@ -1,0 +1,107 @@
+body{
+    background:url("images/pattern-background-desktop.svg") ;
+    font-family: Red hat display;
+    padding: 30 0 0 0;
+}
+
+a{
+    color:hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+
+a:hover{
+    text-decoration: none;
+    color:hsla(223, 47%, 23%, 0.795);
+
+}
+
+
+a:active{
+    color:hsla(223, 47%, 23%, 0.795);
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    overflow: hidden;
+    border-radius: 30px;
+    border: none;
+    width: 380px;
+    
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px;
+}
+
+section{
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(225, 100%, 94%);
+    padding: 5px 30px;
+    border-radius: 20px;
+}
+
+p{
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    font-weight: 500;
+}
+
+h1{
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+
+.payment{
+    padding: 15px 100px;
+   font-weight: 700;
+   color:hsl(225, 100%, 98%);
+   background:hsl(245, 75%, 52%);
+   border:none;
+   outline: none;
+   border-radius: 15px;
+   margin-top: 20px;
+   box-shadow: 10px 1px 10px 10px  hsla(223, 47%, 23%, 0.137);
+}
+.payment:hover{
+    opacity: 0.9;
+    transition: 0.25s;
+}
+.payment:active{
+    opacity: 0.9;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.order-cancel{
+    padding: 20px 65px;
+    font-weight: 700;
+    color:hsl(224, 23%, 55%);
+    background: transparent;
+    border: none;
+    margin-bottom: 20px;
+    outline: none;
+
+}
+.order-cancel:hover{
+    color:hsl(223, 47%, 23%);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.order-cancel:active{
+    color:hsl(223, 47%, 23%);
+    cursor: pointer;
+    transition: 0.5s;
+}
